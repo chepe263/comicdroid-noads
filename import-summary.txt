@@ -1,0 +1,161 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndroidBillingLibrary:
+* .gitignore
+* proguard.cfg
+From droid-comic-viewer:
+* .gitignore
+* .gitmodules
+* LICENSE-2.0.html
+* lib\
+* lib\AndroidBillingLibrary\
+* lib\AndroidBillingLibrary\.git
+* lib\AndroidBillingLibrary\.gitignore
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\.classpath
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\.gitignore
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\.project
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\AndroidManifest.xml
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\proguard.cfg
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\project.properties
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\res\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\res\values\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\res\values\strings.xml
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\BillingControllerTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\BillingReceiverTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\BillingServiceTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\helper\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\helper\AbstractBillingActivityTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\helper\MockBillingActivity.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\model\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\model\BillingDBTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\model\TransactionManagerTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\model\TransactionTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\model\request\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\model\request\ResponseCodeTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\utils\
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\utils\CompatibilityTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibraryTest\src\net\robotmedia\billing\utils\InstallationTest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\.classpath
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\.gitignore
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\.project
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\AndroidManifest.xml
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\proguard.cfg
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\project.properties
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\res\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\res\values\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\res\values\strings.xml
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\com\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\com\android\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\com\android\vending\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\com\android\vending\billing\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\com\android\vending\billing\IMarketBillingService.aidl
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\BillingController.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\BillingReceiver.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\BillingRequest.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\BillingService.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\IBillingObserver.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\helper\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\helper\AbstractBillingActivity.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\helper\AbstractBillingObserver.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\model\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\model\BillingDB.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\model\Transaction.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\model\TransactionManager.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\security\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\security\DefaultSignatureValidator.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\security\ISignatureValidator.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\utils\
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\utils\AESObfuscator.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\utils\Base64.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\utils\Base64DecoderException.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\utils\Compatibility.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\utils\Installation.java
+* lib\AndroidBillingLibrary\AndroidBillingLibrary\src\net\robotmedia\billing\utils\Security.java
+* lib\AndroidBillingLibrary\DungeonsRedux\
+* lib\AndroidBillingLibrary\DungeonsRedux\.classpath
+* lib\AndroidBillingLibrary\DungeonsRedux\.gitignore
+* lib\AndroidBillingLibrary\DungeonsRedux\.project
+* lib\AndroidBillingLibrary\DungeonsRedux\AndroidManifest.xml
+* lib\AndroidBillingLibrary\DungeonsRedux\README
+* lib\AndroidBillingLibrary\DungeonsRedux\project.properties
+* lib\AndroidBillingLibrary\DungeonsRedux\res\
+* lib\AndroidBillingLibrary\DungeonsRedux\res\drawable-hdpi\
+* lib\AndroidBillingLibrary\DungeonsRedux\res\drawable-hdpi\icon.png
+* lib\AndroidBillingLibrary\DungeonsRedux\res\drawable-ldpi\
+* lib\AndroidBillingLibrary\DungeonsRedux\res\drawable-ldpi\icon.png
+* lib\AndroidBillingLibrary\DungeonsRedux\res\drawable-mdpi\
+* lib\AndroidBillingLibrary\DungeonsRedux\res\drawable-mdpi\icon.png
+* lib\AndroidBillingLibrary\DungeonsRedux\res\layout\
+* lib\AndroidBillingLibrary\DungeonsRedux\res\layout\item_row.xml
+* lib\AndroidBillingLibrary\DungeonsRedux\res\layout\main.xml
+* lib\AndroidBillingLibrary\DungeonsRedux\res\values\
+* lib\AndroidBillingLibrary\DungeonsRedux\res\values\colors.xml
+* lib\AndroidBillingLibrary\DungeonsRedux\res\values\strings.xml
+* lib\AndroidBillingLibrary\DungeonsRedux\src\
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\billing\
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\billing\example\
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\billing\example\Application.java
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\billing\example\Dungeons.java
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\billing\example\auxiliary\
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\billing\example\auxiliary\CatalogAdapter.java
+* lib\AndroidBillingLibrary\DungeonsRedux\src\net\robotmedia\billing\example\auxiliary\CatalogEntry.java
+* lib\AndroidBillingLibrary\README.mdown
+* lib\FlurryAgent.jar
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AndroidBillingLibrary:
+* AndroidManifest.xml => androidBillingLibrary\src\main\AndroidManifest.xml
+* res\ => androidBillingLibrary\src\main\res\
+* src\ => androidBillingLibrary\src\main\java\
+* src\com\android\vending\billing\IMarketBillingService.aidl => androidBillingLibrary\src\main\aidl\com\android\vending\billing\IMarketBillingService.aidl
+In droid-comic-viewer:
+* AndroidManifest.xml => droidcomicviewer\src\main\AndroidManifest.xml
+* res\ => droidcomicviewer\src\main\res\
+* src\ => droidcomicviewer\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidBillingLibrary/androidBillingLibrary.iml" filepath="$PROJECT_DIR$/androidBillingLibrary/androidBillingLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droid-comic-viewer.iml" filepath="$PROJECT_DIR$/droid-comic-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droidcomicviewer/droidcomicviewer.iml" filepath="$PROJECT_DIR$/droidcomicviewer/droidcomicviewer.iml" />
+    </modules>
+  </component>
+</project>
